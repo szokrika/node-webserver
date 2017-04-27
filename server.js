@@ -17,7 +17,7 @@ app.use((req, res, next) => {
 });
 	
 //if maintenance mode
-// app.use((req, res) => {
+// app.use((req, res, next) => {
 // 	res.render('maintenance.hbs');
 // });
 //end maintenance mode
